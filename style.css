@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background-image: url('https://i.ibb.co/7vgKxG6/4781786.jpg'); /* Replace 'header-background-image.jpg' with your image URL */
+  background-size: cover;
+  background-position: center;
+  font-family: Fantasy;
+  background-color: #333;
+  font-size:30px;
+  color: #7da977;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  background-image: url('https://i.ibb.co/Q9gBJRf/Whats-App-Image-2024-03-13-at-4-11-42-PM.jpg'); /* Replace 'your-background-image-url.jpg' with your image URL */
+  background-size: 100% 100%; /* Stretch the image to full width */
+  background-position: center;
+  padding: 100px 0; /* Adding padding to create space between content and background */
+}
+
+.background-image {
+  max-width: 60%;
+  height: 98.4%;
+  opacity: 0;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent black background */
+  padding: 20px; /* Adding padding for better visual */
+  border-radius: 10px; /* Adding rounded corners */
+}
+
+.timer-segment {
+  margin: 0 20px;
+}
+
+.value {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 18px;
+}
+
+.quotes {
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 10px 0;
+}
